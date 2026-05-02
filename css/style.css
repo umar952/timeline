@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: umar;
+    font-weight: 300;
+    
+}
+
+.container {
+    
+  
+    /* height: 100vh; */
+    background-color: antiquewhite;
+    width: 90%;
+
+}
+
+@font-face {
+    font-family: umar;
+    src: url("../GOOGLE_FRONT/ArchivoBlack-Regular.woff");
+
+}
+@font-face {
+    font-family: umar1;
+    src: url("../GOOGLE_FRONT/Bungee-Regular.woff");
+}
+@font-face {
+    font-family: umar2;
+    src: url("../GOOGLE_FRONT/CossetteTitre-Bold.woff");
+
+}
+@font-face {
+    font-family: umar3;
+    src: url("../GOOGLE_FRONT/CossetteTitre-Regular.woff");
+}
+@font-face {
+    font-family: umar4;
+    src: url("../GOOGLE_FRONT/GoogleSans-Medium.woff");
+
+}
+@font-face {
+    font-family: umar5;
+    src: url("../GOOGLE_FRONT/GoogleSans-Regular.woff2");
+}
+@font-face {
+    font-family: umar6;
+    src: url("../GOOGLE_FRONT/GoogleSans_17pt-Regular.woff");
+
+}
+@font-face {
+    font-family: umar7;
+    src: url("../GOOGLE_FRONT/OpenSans-Regular.woff");
+}
+@font-face {
+    font-family: umar8;
+    src: url("../GOOGLE_FRONT/Oswald-Regular.woff") ;
+
+}
+@font-face {
+    font-family: umar9;
+    src: url("../GOOGLE_FRONT/PlaywriteGBJGuides-Italic.woff");
+}
+@font-face {
+    font-family: umar10;
+    src: url("../GOOGLE_FRONT/PlaywriteGBJGuides-Regular.woff");
+
+}
+@font-face {
+    font-family: umar11;
+    src: url("../GOOGLE_FRONT/Roboto-Black.woff2");
+}
+@font-face {
+    font-family: umar12;
+    src: url("../GOOGLE_FRONT/Roboto-Regular.woff2");
+
+}
+@font-face {
+    font-family: umar13;
+    src: url("../GOOGLE_FRONT/Roboto-Black.woff2");
+}
+/* @font-face {
+    font-family: umar14;
+    src: url("../GOOGLE_FRONT/ArchivoBlack-Regular.woff");
+
+}
+@font-face {
+    font-family: umar15;
+    src: url("../GOOGLE_FRONT/ArchivoBlack-Regular.woff");
+} */

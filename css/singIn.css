@@ -1,0 +1,80 @@
+.sing-in-container {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.425),rgba(0, 0, 255, 0.411)), url(../images/pexels-fotios-photos-16129724.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 20px;
+}
+
+[type="button" ] {
+    outline: 0;
+    border: 0;
+    background-color: green;
+    color: #fff;
+}
+
+[type="button" ]:hover{
+    transition: all 0.5s ease-in;
+    background-image: linear-gradient(red,green);
+    /* color: #eee; */
+    cursor: pointer;
+}
+p {
+    text-align: justify;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: linear-gradient(rgba(255, 0, 0, 0.336),rgba(255, 255, 0, 0.247)), url(../images/pexels-jean-pixels-427051121-22644127.jpg) no-repeat center center/ cover;
+}
+
+
+
+.list-icon ul{
+    border-top: 2px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3px;
+    list-style: none;
+}
+.list-icon ul li a{
+    color: #fff;
+    background-color: blue ;
+}
+.list-icon ul li a:hover{
+    transition: all 0.5s ease-in;
+    color: #eee;
+    background-image: linear-gradient(red,yellow) ;
+}
+
+
+
+.sing-in-right {
+    padding: 20px;
+    border-left: 1px solid ;
+}

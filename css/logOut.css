@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(rgba(255, 0, 0, 0.363),rgba(255, 255, 0, 0.548)), url(../images/pexels-fotios-photos-16129724.jpg) no-repeat center center/cover;
+}
+
+
+:focus {
+    border: 1px solid red;
+}
+
+::placeholder {
+    color: red;
+    text-transform: capitalize;
+}
+
+.log-out-container h1:hover {
+    text-decoration: 3px wavy yellow underline;
+
+}
+.log-out-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    gap: 20px;
+    color: #fff;
+    background-image: linear-gradient(red,green);
+
+}
+
+input{
+    padding: 10px 15px;
+}
+
+.btn input {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+.btn input:hover{
+    background-image: linear-gradient(red,yellow);
+    transition: all 0.5s ease-out;
+
+}
+.log-out-form form {
+    display: flex;
+    gap: 2px;
+    border-radius: 2px;
+    /* justify-content: space-between; */
+}
+

@@ -1,0 +1,41 @@
+.sing-out-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.425),rgba(0, 0, 255, 0.411)), url(../images/pexels-tima-miroshnichenko-5380610.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.sing-out-form form{
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-image: linear-gradient(red,green);
+}
+input {
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/pexels-tima-miroshnichenko-5380635.jpg) no-repeat center center/ cover;
+}
+
+[type="submit"] {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: green;
+}
+[type="submit"]:hover {
+   transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(red,black);
+}

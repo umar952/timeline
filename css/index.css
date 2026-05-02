@@ -1,0 +1,301 @@
+
+
+@font-face {
+    font-family: umar;
+    src: url("../GOOGLE_FRONT/ArchivoBlack-Regular.woff");
+
+}
+@font-face {
+    font-family: umar1;
+    src: url("../GOOGLE_FRONT/Bungee-Regular.woff");
+}
+
+@font-face {
+    font-family: umar3;
+    src: url("../GOOGLE_FRONT/CossetteTitre-Regular.woff");
+}
+@font-face {
+    font-family: umar4;
+    src: url("../GOOGLE_FRONT/GoogleSans-Medium.woff");
+
+}
+@font-face {
+    font-family: umar5;
+    src: url("../GOOGLE_FRONT/GoogleSans-Regular.woff2");
+}
+@font-face {
+    font-family: umar6;
+    src: url("../GOOGLE_FRONT/GoogleSans_17pt-Regular.woff");
+
+}
+@font-face {
+    font-family: umar7;
+    src: url("../GOOGLE_FRONT/OpenSans-Regular.woff");
+}
+@font-face {
+    font-family: umar8;
+    src: url("../GOOGLE_FRONT/Oswald-Regular.woff") ;
+
+}
+@font-face {
+    font-family: umar9;
+    src: url("../GOOGLE_FRONT/PlaywriteGBJGuides-Italic.woff");
+}
+@font-face {
+    font-family: umar10;
+    src: url("../GOOGLE_FRONT/PlaywriteGBJGuides-Regular.woff");
+
+}
+@font-face {
+    font-family: umar11;
+    src: url("../GOOGLE_FRONT/Roboto-Black.woff2");
+}
+@font-face {
+    font-family: umar12;
+    src: url("../GOOGLE_FRONT/Roboto-Regular.woff2");
+
+}
+@font-face {
+    font-family: umar13;
+    src: url("../GOOGLE_FRONT/Roboto-Black.woff2");
+}
+/* @font-face {
+    font-family: umar14;
+    src: url("../GOOGLE_FRONT/ArchivoBlack-Regular.woff");
+
+}
+@font-face {
+    font-family: umar15;
+    src: url("../GOOGLE_FRONT/ArchivoBlack-Regular.woff");
+} */
+ body {
+    font-family: umar2;
+ }
+ @font-face {
+    font-family: umar2;
+    src: url("../GOOGLE_FRONT/CossetteTitre-Bold.woff");
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+nav  ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+nav  ul li:hover a {
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(red,green);
+}
+
+.nevber {
+    width: 100%;
+    background-color: blue;
+
+}
+
+header {
+    width: 95%;
+}
+
+.social-icons {
+    background-image: radial-gradient(
+        red,yellow
+    );
+
+}
+.social-icons ul  i:hover{
+    background-color: green;
+
+}
+
+.page-navigation {
+    background-color: orange;
+}
+
+.fa-facebook {
+    color: blue;
+}
+.fa-youtube {
+    color: red;
+    /* background-color: yellow; */
+}
+
+.fa-instagram {
+    color: orange;
+}
+.courses p{
+    text-align:justify;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 100px;
+
+}
+
+.courses{
+    /* margin: 20px; */
+    gap:2px;
+    padding: 20px;
+    display:flex;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(red,green);
+}
+p {
+    text-align: justify;
+}
+
+.btn button{
+    margin-top: 2px;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background-color: red;
+}
+.btn button:hover a{
+    padding:20px;
+    background-image: linear-gradient(yellow,red);
+}
+
+.btn {
+    text-align: center;
+
+}
+.course-web-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 2px 12px 2px  yellow;
+}
+.course-web-design:last-child{
+    box-shadow: 0 10px 0 yellow;
+}
+.slider {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 0, 0, 0.507),rgba(255, 255, 0, 0.445)),url(../images/pexels-cottonbro-6804604.jpg) no-repeat center center /cover;
+}
+
+.slider .btn button {
+    background-color: gray;
+    cursor: pointer;
+}
+.slider .btn button:hover {
+    /* background-color: gray; */
+    transition: all 0.5s ease-in;
+    background-image: linear-gradient(red, green);
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(9, 0, 128),red);
+    padding: 20px;
+    gap: 20px;
+    color: #fff;
+}
+
+.download {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-image: linear-gradient(rgb(81, 255, 0),yellow);
+   
+}
+.free-class {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-image: linear-gradient(red,yellow);
+
+}
+
+.download .btn button {
+    background-color: orange;
+    border: 0;
+    outline: 0;
+}
+
+.download .btn button:hover {
+    background-image: linear-gradient(red,orange);
+}
+.one,.two,.three{
+    color: #fff;
+    gap: 20px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class="footer"]{
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(rgba(255, 0, 0, 0.507),rgba(255, 255, 0, 0.445)), url(../images/pexels-fotios-photos-16129724.jpg ) no-repeat center center /cover
+}
+
+[class="footer"] a{
+    
+   text-decoration: none;
+    color: #fff;
+    
+   
+}
+[class="footer"] a:hover{
+    background:linear-gradient(rgba(255, 0, 0, 0.507),rgba(255, 255, 0, 0.445))
+   
+   
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background: linear-gradient(red,yellow);
+}
+[class="footer"].p{
+    font-size: 18px;
+    background: linear-gradient(green,gray);
+}

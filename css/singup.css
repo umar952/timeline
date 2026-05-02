@@ -1,0 +1,86 @@
+.sing--up-container {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.425),rgba(0, 0, 255, 0.411)), url(../images/pexels-fotios-photos-16129724.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 230, 0, 0.425),rgba(0, 0, 255, 0.411)), url(../images/pexels-fotios-photos-16129724.jpg) no-repeat center center/ cover;
+}
+
+input {
+    padding: 20px;
+}
+
+ form{
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-image: linear-gradient(red,green);
+}
+
+[type="button"] {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: green;
+}
+[type="button"]:hover {
+   transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(red,black);
+}
+
+.list-icon ul{
+    border-top: 2px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 3px;
+    list-style: none;
+}
+.list-icon ul li a{
+    color: #fff;
+    background-color: blue ;
+}
+.list-icon ul li a:hover{
+    transition: all 0.5s ease-in;
+    color: #eee;
+    background-image: linear-gradient(red,yellow) ;
+}
+
+[class="left"] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn button {
+     border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: green;
+    padding: 20px 15px;
+}
+
+.btn button:hover {
+   transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(red,black);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

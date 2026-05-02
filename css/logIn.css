@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: url(../images/pexels-mizunokozuki-12899183.jpg) no-repeat center center/cover;
+
+}
+.container {
+    background-image: url(../images/pexels-tima-miroshnichenko-5380610.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.log-in-form {
+    background-image: linear-gradient(red,yellow);
+    padding: 20px;
+}
+.log-in-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    padding: 20px;
+    border-radius: 19px;
+    margin-bottom: 2px;
+}
+
+[type="button"] {
+    border-radius: 1px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: green;
+    color: white;
+}
+[type="button"]:hover{
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(red,blue);
+    color: white;
+}

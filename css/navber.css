@@ -1,0 +1,31 @@
+
+nav ul li {
+    list-style-type: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+nav  ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+nav  ul li:hover a {
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(red,green);
+}
+
+.nevber {
+    width: 100%;
+    background-color: blue;
+
+}
+
+header {
+    width: 95%;
+}
